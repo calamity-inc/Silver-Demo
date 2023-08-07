@@ -1,0 +1,3 @@
+[submodule "Silver"]
+	path = slv
+	url = https://github.com/calamity-inc/Silver
