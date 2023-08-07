@@ -12,10 +12,6 @@ jobs:
       - name: Build
         uses: calamity-inc/dynstat@senpai
 
-      - name: Install rsync
-        run: |
-          sudo apt-get update && sudo apt-get install -y rsync
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
 
